@@ -12,4 +12,9 @@ function showDate() {
     var time = h + ':' + m;
     document.getElementById('horloge').innerHTML = time;
     refresh();
- }  
+ } 
+ 
+ fetch("https://www.boredapi.com/api/activity")
+.then(reponse =>reponse.json())
+.then(reponse2 => console.table(reponse2))
+
