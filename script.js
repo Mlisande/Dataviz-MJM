@@ -14,7 +14,7 @@ function showDate() {
     refresh();
  } 
  
- fetch("https://www.boredapi.com/api/activity")
+ fetch(" httphttps://superheroapi.com/api/access-token/character-id/connections")
 .then(reponse =>reponse.json())
 .then(reponse2 => console.table(reponse2))
 
