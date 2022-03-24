@@ -14,7 +14,9 @@ function showDate() {
     refresh();
  } 
  
- fetch(" httphttps://superheroapi.com/api/access-token/character-id/connections")
+ fetch("https://superheroapi.com/api/access-token/character-id/image")
 .then(reponse =>reponse.json())
 .then(reponse2 => console.table(reponse2))
+
+
 
