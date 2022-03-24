@@ -10,4 +10,13 @@ body {
     background : #FFCD2B;
     padding : 10px;
     margin: 10px;
-}   
+} 
+
+button{
+    position: absolute;
+    top: 45%;
+    transform: translateY(-40%);
+    height: 10vh;
+    border-radius: 20%;
+    
+}
