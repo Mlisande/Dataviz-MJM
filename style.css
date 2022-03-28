@@ -52,6 +52,10 @@ ul {
 
 }
 
+.gras{
+    font-weight: bold;
+}
+
 #horloge {
     border-radius : 5px;
     background : #FFCD2B;
