@@ -18,8 +18,7 @@ function showDate() {
 .then(reponse =>reponse.json())
 <<<<<<< HEAD
 .then(reponse2 => console.table(reponse2))*/
-=======
-.then(reponse2 => console.table(reponse2)) */
+
 
 
 
@@ -98,10 +97,7 @@ function animOut(){
         easing: "easeInQuad", // easin =manière dont se fait l'amition, easeInQuad=manière dont l'animation se termine
         duration: 750 // duree de l'animation
     })
-<<<<<<< HEAD
+
 }
-=======
 
 
->>>>>>> 6be83dfab0812f204648c21e4e21361116a1a61a
->>>>>>> 7f36f7b97a55da11eeb2ee671991fb36b24c43d4

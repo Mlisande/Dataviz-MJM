@@ -22,16 +22,34 @@ body {
 } 
 
 button{
-    position: absolute;
-    top: 45%;
-    transform: translateY(-40%);
-    height: 10vh;
+    float: right;
+    top: 20%;
+    /*transform: translateY(-40%);*/
+    height: 40px ;
     border-radius: 20%;   
+    background-color: #1F78F6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
 }
 
-.container {
-    text-align: center;
+
+a{
+    color:black;
+    font-style: italic ;
+}
+
+ul {
+    list-style-type: none;
+ }
+.jour {
+    text-align: left;
     perspective: 1000px;
+}
+.menu {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+
 }
 
 #horloge {
@@ -40,3 +58,4 @@ button{
     padding : 10px;
     margin: 10px;
 }
+
