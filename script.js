@@ -1,32 +1,23 @@
-/*function refresh(){
-    var t = 1000; // rafraîchissement en millisecondes
-    setTimeout('showDate()',t);
-}
 
-function showDate() {
-    var date = new Date();
-    var h = date.getHours();
-    var m = date.getMinutes();
-    if( h < 10 ){ h = '0' + h; }
-    if( m < 10 ){ m = '0' + m; }
-    var time = h + ':' + m;
-    document.getElementById('horloge').innerHTML = time;
-    refresh();
- } 
+// API proverbes 
+
+async function myAPI(){
+    let myFetch = await fetch("https://programming-quotes-api.herokuapp.com/quotes")
+    let result = await myFetch.json()
+   
  
- fetch("https://superheroapi.com/api/access-token/character-id/image")
-.then(reponse =>reponse.json())
-<<<<<<< HEAD
-.then(reponse2 => console.table(reponse2))*/
+     return result
+    
+ }
+ 
+ 
+ 
+ myAPI().then(function(result){
+     console.log(result[123]["en"])
+ 
+ })
 
-
-
-
-/*let myJSON = '{"lundi":"satisfait", "mardi":"content","mercredi":"neutre","jeudi":["content", "fatigué"],"vendredi":"festif"}';
-
-let myNewJSON = JSON.parse(myJSON);
-console.log(myNewJSON.lundi); */
-
+// API proverbes 
 
 // animeJS 
 

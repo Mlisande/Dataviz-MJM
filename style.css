@@ -1,25 +1,37 @@
+.accueil {
+
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    overflow-x : hidden;
+    background-color:pink;
+    color : #1F78F6;
+    width: auto;
+  
+    
+} 
+
+.page1{
+    background: linear-gradient(to right, rgba(242, 213, 15, 0.3) 0%, rgba(218, 6, 65, 0.3) 100%);
+} 
+
+/*HEADER*/
 h1 {
     font-family: ubuntu;
     transform-style: preserve-3d;
     display: inline-flex;
-    margin-top: 200px;
+    margin-top: ;
+    margin-left: 10px;
     color: #333;
-    font-weight: 100;
+    font-weight:100px ;
     letter-spacing: 10px;
-    font-size: 190px;
+    font-size: 60px;
     cursor: pointer;
 }
 h1 span {
     pointer-events: none;
 }
-body {
-    overflow-x : hidden;
-    background : #F8D9D1;
-    color : #1F78F6;
-    margin: 10px;
-    padding : 10px
-    
-} 
+
 
 button{
     float: right;
@@ -32,6 +44,11 @@ button{
     color:black;
 }
 
+.header{
+    display: flex;
+    justify-content:space-between ;
+}
+
 
 a{
     color:black;
@@ -41,16 +58,47 @@ a{
 ul {
     list-style-type: none;
  }
-.jour {
-    text-align: left;
-    perspective: 1000px;
-}
-.menu {
-    width: 200px;
-    margin: 0;
+
+ .menu {
+    margin-right: 40px;
     padding: 0;
+    
+}
+
+.menu li{
+    display: inline;
+    list-style: none;
+   
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+.jour {
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+/*HEADER*/
+/*MAIN*/
+
+img{
+    width: 50%;
+    margin-left: 10%;
 
 }
+
+.img2{
+    
+   
+}
+
 
 .gras{
     font-weight: bold;
@@ -63,3 +111,4 @@ ul {
     margin: 10px;
 }
 
+/*MAIN*/
