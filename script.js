@@ -1,6 +1,19 @@
 
-// animeJS 
+// API proverbes 
+async function myAPI(){
+    let myFetch = await fetch("https://programming-quotes-api.herokuapp.com/quotes")
+    let result = await myFetch.json()
+     return result 
+ }
+ 
+myAPI().then(function(result){
+     //console.log(result[123]["en"]); 
+     document.getElementById('citation1').innerHTML=result[123]["en"];
+ })
+// API proverbes 
 
+
+// animeJS 
 // constentes à portées globales
 const title = document.querySelector("h1");
 const days = [...document.querySelectorAll("h1 span")];
@@ -68,4 +81,6 @@ function animOut(){
         easing: "easeInQuad", // easin =manière dont se fait l'amition, easeInQuad=manière dont l'animation se termine
         duration: 750 // duree de l'animation
     })
+
 }
+// AnimeJS

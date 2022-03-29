@@ -1,44 +1,96 @@
+.accueil {
+
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    overflow-x : hidden;
+    background-color:pink;
+    color : #1F78F6;
+    width: auto;
+  
+    
+} 
+
+.page1{
+    background: linear-gradient(to right, rgba(242, 213, 15, 0.3) 0%, rgba(218, 6, 65, 0.3) 100%);
+} 
+
+/*HEADER*/
 h1 {
-    font-family: ubuntu;
+    font-family: "oswald", sans-serif;
     transform-style: preserve-3d;
     display: inline-flex;
-    margin-top: 200px;
+    margin-top: ;
+    margin-left: 10px;
     color: #333;
-    font-weight: 100;
+    font-weight:100px ;
     letter-spacing: 10px;
-    font-size: 190px;
+    font-size: 60px;
     cursor: pointer;
 }
 h1 span {
     pointer-events: none;
 }
-body {
-    overflow-x : hidden;
-    background : #F8D9D1;
-    color : #1F78F6;
-    margin: 10px;
-    padding : 10px
+h2{
+    font-family: "oswald", sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content:space-between ;
+}
+
+
+a{
+    color:black;
+}
+
+ul {
+    list-style-type: none;
+ }
+
+ .menu {
+    font-family: "oswald", sans-serif;
+    margin-right: 40px;
+    padding: 0;
     
-} 
-
-button{
-    position: absolute;
-    top: 45%;
-    transform: translateY(-40%);
-    height: 10vh;
-    border-radius: 20%;   
 }
 
-.container {
-    text-align: center;
-    perspective: 1000px;
+.menu li{
+    display: inline;
+    list-style: none;
+   
 }
 
-#horloge {
-    border-radius : 5px;
-    background : #FFCD2B;
-    padding : 10px;
-    margin: 10px;
+.menu a{
+    text-decoration: none;
+    padding: 10px;
 }
 
-/* couvertre dataviz 1 */
+
+
+.jour {
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+/*HEADER*/
+/*MAIN*/
+
+img{
+    width: 50%;
+    margin-left: 10%;
+
+}
+
+.img2{
+    
+   
+}
+
+
+.gras{
+    font-weight: bold;
+}

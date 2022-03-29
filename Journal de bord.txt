@@ -31,3 +31,12 @@ let myJSON = {
 //let myNewJSON = JSON.stringify(myJSON,null, '\t');
 
 console.log(myJSON.jeudi);*/
+
+
+jour 5 : 
+5 API trouvé : citation, une citation par jour ; pb la stocker dans le javascript
+faire animation pour jour de la semaine
+couleur à choisir pour jour
+graphisme sur chaque page : créer son propre mème, lié à la citation 
+tout en dynamique : transformer en menu ou en timer 
+CSS sur la police
