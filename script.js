@@ -1,33 +1,3 @@
-/*function refresh(){
-    var t = 1000; // rafraîchissement en millisecondes
-    setTimeout('showDate()',t);
-}
-
-function showDate() {
-    var date = new Date();
-    var h = date.getHours();
-    var m = date.getMinutes();
-    if( h < 10 ){ h = '0' + h; }
-    if( m < 10 ){ m = '0' + m; }
-    var time = h + ':' + m;
-    document.getElementById('horloge').innerHTML = time;
-    refresh();
- } 
- 
- fetch("https://superheroapi.com/api/access-token/character-id/image")
-.then(reponse =>reponse.json())
-<<<<<<< HEAD
-.then(reponse2 => console.table(reponse2))*/
-=======
-.then(reponse2 => console.table(reponse2)) */
-
-
-
-/*let myJSON = '{"lundi":"satisfait", "mardi":"content","mercredi":"neutre","jeudi":["content", "fatigué"],"vendredi":"festif"}';
-
-let myNewJSON = JSON.parse(myJSON);
-console.log(myNewJSON.lundi); */
-
 
 // animeJS 
 
@@ -98,10 +68,4 @@ function animOut(){
         easing: "easeInQuad", // easin =manière dont se fait l'amition, easeInQuad=manière dont l'animation se termine
         duration: 750 // duree de l'animation
     })
-<<<<<<< HEAD
 }
-=======
-
-
->>>>>>> 6be83dfab0812f204648c21e4e21361116a1a61a
->>>>>>> 7f36f7b97a55da11eeb2ee671991fb36b24c43d4
