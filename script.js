@@ -9,7 +9,28 @@ async function myAPI(){
 myAPI().then(function(result){
      //console.log(result[123]["en"]); 
      document.getElementById('citation1').innerHTML=result[123]["en"];
- })
+     //.appendChild(document.getElementById('citation1')=result[123]["author"]);
+
+})
+
+ myAPI().then(function(result){
+    //console.log(result[123]["en"]); 
+    document.getElementById('citation2').innerHTML=result[13]["en"];
+})
+myAPI().then(function(result){
+    //console.log(result[123]["en"]); 
+    document.getElementById('citation3').innerHTML=result[33]["en"];
+})
+
+myAPI().then(function(result){
+    //console.log(result[123]["en"]); 
+    document.getElementById('citation4').innerHTML=result[242]["en"];
+})
+
+myAPI().then(function(result){
+    //console.log(result[123]["en"]); 
+    document.getElementById('citation5').innerHTML=result[92]["en"];
+})
 // API proverbes 
 
 
