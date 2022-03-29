@@ -8,14 +8,14 @@ async function myAPI(){
  
 myAPI().then(function(result){
      //console.log(result[123]["en"]); 
-     document.getElementById('citation1').innerHTML=result[123]["en"];
+     document.getElementById('citation1').innerHTML=result[123]["en"]+ " "+result[123]["author"];
      //.appendChild(document.getElementById('citation1')=result[123]["author"]);
 
 })
 
  myAPI().then(function(result){
     //console.log(result[123]["en"]); 
-    document.getElementById('citation2').innerHTML=result[13]["en"];
+    document.getElementById('citation2').innerHTML=result[13]["en"]+result[123]["author"];
 })
 myAPI().then(function(result){
     //console.log(result[123]["en"]); 
