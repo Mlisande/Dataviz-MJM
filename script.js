@@ -5,31 +5,45 @@ async function myAPI(){
     let result = await myFetch.json()
      return result 
  }
- 
-myAPI().then(function(result){
-     //console.log(result[123]["en"]); 
-     document.getElementById('citation1').innerHTML=result[123]["en"] + " "+result[123]["author"];
-     //.appendChild(document.getElementById('citation1')=result[123]["author"]);
 
+// Lundi
+myAPI().then(function(result){
+     document.getElementById('citation1').innerHTML=result[123]["en"];
+})
+myAPI().then(function(result){
+    document.getElementById('auteur1').innerHTML=result[123]["author"];
 })
 
+// Mardi
  myAPI().then(function(result){
-    //console.log(result[123]["en"]); 
-    document.getElementById('citation2').innerHTML=result[13]["en"]+ " "+result[13]["author"];
+    document.getElementById('citation2').innerHTML=result[13]["en"];
 })
 myAPI().then(function(result){
-    //console.log(result[123]["en"]); 
+    document.getElementById('auteur2').innerHTML=result[13]["author"];
+})
+
+// Mercredi
+myAPI().then(function(result){
     document.getElementById('citation3').innerHTML=result[33]["en"];
 })
-
 myAPI().then(function(result){
-    //console.log(result[123]["en"]); 
-    document.getElementById('citation4').innerHTML=result[242]["en"];
+    document.getElementById('auteur3').innerHTML=result[33]["author"];
 })
 
+// Jeudi
 myAPI().then(function(result){
-    //console.log(result[123]["en"]); 
+    document.getElementById('citation4').innerHTML=result[242]["en"];
+})
+myAPI().then(function(result){
+    document.getElementById('auteur4').innerHTML=result[242]["author"];
+})
+
+// Vendredi
+myAPI().then(function(result){
     document.getElementById('citation5').innerHTML=result[92]["en"];
+})
+myAPI().then(function(result){
+    document.getElementById('auteur5').innerHTML=result[92]["author"];
 })
 // API proverbes 
 

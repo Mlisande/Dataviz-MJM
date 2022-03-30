@@ -1,5 +1,5 @@
+/* HEADER*/
 .accueil {
-
     margin: 0;
     padding : 0;
     box-sizing: border-box;
@@ -7,8 +7,6 @@
     background-color:pink;
     color : #1F78F6;
     width: auto;
-  
-    
 } 
 
 .page1{
@@ -21,16 +19,43 @@
 
 .page3{
     background: linear-gradient(to top, rgba(247, 107, 28, 0.2) 0%, rgba(27, 206, 223, 0.4) 100%);
-
 }
 
 .page4{
     background: linear-gradient(to top, rgba(101, 121, 155, 0.3) 0%, rgba(94, 37, 99, 0.5) 100%);
 }
 
+.page5{
+    background: linear-gradient(to top, rgba(101, 121, 155, 0.3) 0%, rgba(94, 37, 99, 0.5) 100%);
+}
+.header{
+    display: flex;
+    justify-content:space-between ;
+}
 
+.menu {
+    font-family: 'roboto', sans-serif;
+    margin-right: 40px;
+    padding: 0;
+    font-size: 10px;   
+}
 
-/*HEADER*/
+.menu li {
+    display: inline;
+    list-style: none; 
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.jour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
 h1 {
     font-family: 'oswald', sans-serif;
     transform-style: preserve-3d;
@@ -46,73 +71,21 @@ h1 {
 h1 span {
     pointer-events: none;
 }
-h2{
+h2 {
     font-family: "oswald", sans-serif;
 }
-
-.header{
-    display: flex;
-    justify-content:space-between ;
-}
-
-
-a{
+a {
     color:black;
 }
-
 ul {
     list-style-type: none;
  }
-
- .menu {
-    font-family: 'roboto', sans-serif;
-    margin-right: 40px;
-    padding: 0;
-    font-size: 10px;
-    
-}
-
-.menu li{
-    display: inline;
-    list-style: none;
-   
-}
-
-.menu a{
-    text-decoration: none;
-    padding: 10px;
-}
-
-
-
-.jour {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   
-    
-}
-
 /*HEADER*/
+
 /*MAIN*/
-
-p{
-    font-size: 45px;
-    text-align: center;
-}
-
-img{
-    width: 50%;
-    margin-left: ;
-
-}
-
 .img2{
-    width: 35%;
-    
-   
+    width: 35%;   
 }
-
 
 .gras{
     font-weight: bold;
@@ -123,10 +96,6 @@ img{
     font-size:40px ;
 }
 
-/*q{
-
-    font-family: 'Courgette', sans-serif;
-}*/
 .meme{
     display: flex;
     flex-direction: column;
@@ -134,8 +103,17 @@ img{
     justify-content: center;   
 }
 
+p{
+    font-size: 45px;
+    text-align: center;
+}
+
+img{
+    width: 50%;
+    margin-left: ;
+}
+
 h4{
     font-size: 20px;
 }
-
 /*MAIN*/
