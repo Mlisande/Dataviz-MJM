@@ -15,7 +15,7 @@ myAPI().then(function(result){
 
  myAPI().then(function(result){
     //console.log(result[123]["en"]); 
-    document.getElementById('citation2').innerHTML=result[13]["en"]+result[123]["author"];
+    document.getElementById('citation2').innerHTML=result[13]["en"]+ " "+result[13]["author"];
 })
 myAPI().then(function(result){
     //console.log(result[123]["en"]); 

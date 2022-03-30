@@ -32,7 +32,7 @@
 
 /*HEADER*/
 h1 {
-    font-family: 'niramit';
+    font-family: 'oswald', sans-serif;
     transform-style: preserve-3d;
     display: inline-flex;
     margin-top: 5px;
@@ -65,7 +65,7 @@ ul {
  }
 
  .menu {
-    font-family: "oswald", sans-serif;
+    font-family: 'roboto', sans-serif;
     margin-right: 40px;
     padding: 0;
     font-size: 10px;
@@ -119,12 +119,14 @@ img{
 }
 
 .citations{
-    font-family: "oswald", sans-serif;
+    font-family: 'oswald', sans-serif;
+    font-size:40px ;
 }
 
-q{
-    font-size: xx-large;
-}
+/*q{
+
+    font-family: 'Courgette', sans-serif;
+}*/
 .meme{
     display: flex;
     flex-direction: column;
