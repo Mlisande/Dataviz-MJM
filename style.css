@@ -6,12 +6,13 @@
     padding : 0;
     box-sizing: border-box;
     overflow-x : hidden;
-    background-color:pink;
+    background:radial-gradient(50% 50% at 50% 50%, rgba(204, 149, 192, 0.47) 0%, rgba(219, 212, 180, 0.55) 51.04%, rgba(122, 161, 210, 0.63) 100%);
     width: auto;
 } 
 
 .page1{
     background: radial-gradient(50% 50% at 50% 50%, rgba(91, 36, 122, 0.22) 0%, rgba(255, 175, 123, 0.27) 46.87%, rgba(94, 37, 99, 0.17) 100%);
+    
 } 
 
 .page2{
@@ -19,7 +20,7 @@
 }
 
 .page3{
-    background: radial-gradient(50% 50% at 50% 50%, rgba(247, 107, 28, 0.2) 0%, rgba(27, 206, 223, 0.4) 100%);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(91, 36, 122, 0.19) 0%, rgba(255, 161, 127, 0.41) 47.92%, rgba(62, 114, 168, 0.28) 100%);
 }
 
 .page4{
@@ -29,6 +30,7 @@
 .page5{
     background: radial-gradient(50% 50% at 50% 50%, rgba(58, 28, 113, 0.75) 0%, rgba(215, 109, 119, 0.541667) 51.04%, rgba(255, 175, 123, 0) 100%);
 }
+
 .header{
     display: flex;
     justify-content:space-between ;
@@ -99,7 +101,6 @@ ul {
 .citations{
     font-family: courier, sans-serif;
     font-size:20px ;
-    font-family: ;
     text-align: center;
 }
 
@@ -108,9 +109,14 @@ p{
     text-align: center;
 }
 
+.img{
+    display: flex;
+    justify-content: center;
+    
+}
+
 img{
-    width: 50%;
-    margin-left: ;
+    width: 45%;
 }
 
 h4{
@@ -266,17 +272,19 @@ font-size:20px ;
 }
 
 /*FOOTER*/
-footer{
-    bottom:0%;
-    position : absolute;
-}   
+ 
 p a {
     text-decoration: none;
 }
 p{
+
     font-family: Courier;
-    font-size:20px ;
+    font-size:15px ;
     text-align: center;
+    letter-spacing: 10px;
+    margin-top: 2%;
+   
+  
 }
 .coeur{
     color:red
