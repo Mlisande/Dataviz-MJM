@@ -48,7 +48,7 @@ myAPI().then(function(result){
 // API proverbes 
 
 
-// animeJS 
+// animeJS - animation jours de la semaine
 // constentes à portées globales
 const title = document.querySelector("h1");
 const days = [...document.querySelectorAll("h1 span")];
@@ -96,9 +96,9 @@ function animIn(){
     // pour utiliser animeJS on utilise la méthode anime à laquelle on applique
     anime({
         targets : "h1 span",
-        translateX : function(){return anime.random(-250,250)},
-        translateY : function(){return anime.random(-250,250)},
-        translateZ : function(){return anime.random(-2000,750)},
+        translateX : function(){return anime.random(0,1000)},
+        translateY : function(){return anime.random(0,1000)},
+        translateZ : function(){return anime.random(2000,750)},
         rotate : function(){return anime.random(-250,250)},
         easing : "easeOutCirc", // easin =manière dont se fait l'amition, easeOutCirc=manière dont l'animation se déroule, plus lent à la fin
         duration : 750 // duree de l'animation
@@ -118,4 +118,12 @@ function animOut(){
     })
 
 }
+
+setTimeout(() => {
+    animIn();
+}, 750);
+setTimeout(() => {
+    animOut();
+}, 1500);
+
 // AnimeJS

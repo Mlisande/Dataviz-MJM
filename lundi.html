@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -25,22 +26,21 @@
             <span>n</span>
             <span>d</span>
             <span>i</span>
-    
         </h1>
-        
-        <h2>MOOD : 😎</h2>
         </div>
     
-    <div class="menu">
-
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li class="gras">Lundi</li>
-            <li><a href="mardi.html">Mardi</a></li>
-            <li><a href="mercredi.html">Mercredi</a></li>
-            <li><a href="jeudi.html">Jeudi</a></li>
-            <li><a href="vendredi.html">Vendredi</a></li>
-        </ul>
+        <div class="a-header">
+            <input type="checkbox" name="main-nav" id="main-nav" class="burger-check">
+            <label for="main-nav" class="burger menu"><span></span></label>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="lundi.html">Lundi</a></li>
+                    <li><a href="mardi.html" >Mardi</a></a></li>
+                    <li><a href="mercredi.html" >Mercredi</a></li>
+                    <li><a href="jeudi.html">Jeudi</a></li>
+                    <li><a href="vendredi.html">Vendredi</a></li>
+                </ul>
+        </div>
     </section>
 <!--HEADER-->
 
@@ -50,10 +50,9 @@
         <figcaption id="auteur1"></figcaption>
     </figure>
     
-    <div class="meme">
-        <h4>Meme du jour</h4>
-        <img class="img2" src="IMG/Lundi.png" alt="Lundi" ></img>        
-    </div>
+    <img class="img2" src="IMG/Lundi.png" alt="Lundi" ></img>   
+    
+    <h2>MOOD : 😎</h2>
 <!--MAIN--> 
 
 <!--FOOTER-->
@@ -63,5 +62,7 @@
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 </body>
-
+<footer>
+    <p>Made with <span class="coeur">&hearts;</span> by <a href="https://adatechschool.fr/" target="_blank">Marine, Melisande & Jacqueline</a></p>
+</footer>
 </html>
