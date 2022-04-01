@@ -229,14 +229,15 @@ Simple mobile menu opening and closing (IE9 or higher)
     float: right;
     width: calc(8% - 12px);
     margin: 0;
-    min-height: 1px;
+    min-height: 10px;
     
     overflow: hidden;
 }
 
 .a-header ul {
-    position: relative;
-    float: left;
+    position:fixed ;
+   
+    float: right;
     width: 100%;
     list-style: none;
     margin: 0;
@@ -272,6 +273,12 @@ font-size:20px ;
 }
 
 /*FOOTER*/
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
  
 p a {
     text-decoration: none;
@@ -282,7 +289,7 @@ p{
     font-size:15px ;
     text-align: center;
     letter-spacing: 10px;
-    margin-top: 2%;
+    
    
   
 }
