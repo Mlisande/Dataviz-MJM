@@ -6,45 +6,36 @@ async function myAPI(){
      return result 
  }
 
-// Lundi
-myAPI().then(function(result){
-     document.getElementById('citation1').innerHTML=result[123]["en"];
-})
-myAPI().then(function(result){
-    document.getElementById('auteur1').innerHTML=result[123]["author"];
-})
+const myResult = myAPI();
 
-// Mardi
- myAPI().then(function(result){
-    document.getElementById('citation2').innerHTML=result[13]["en"];
-})
-myAPI().then(function(result){
-    document.getElementById('auteur2').innerHTML=result[13]["author"];
-})
 
-// Mercredi
-myAPI().then(function(result){
-    document.getElementById('citation3').innerHTML=result[33]["en"];
-})
-myAPI().then(function(result){
-    document.getElementById('auteur3').innerHTML=result[33]["author"];
-})
 
-// Jeudi
-myAPI().then(function(result){
-    document.getElementById('citation4').innerHTML=result[242]["en"];
-})
-myAPI().then(function(result){
-    document.getElementById('auteur4').innerHTML=result[242]["author"];
-})
 
-// Vendredi
-myAPI().then(function(result){
-    document.getElementById('citation5').innerHTML=result[92]["en"];
-})
-myAPI().then(function(result){
-    document.getElementById('auteur5').innerHTML=result[92]["author"];
-})
+function myQuote(idCitation,idAuteur,nbApi){
+
+    myResult.then(function(result){
+        document.getElementById(idCitation).innerHTML=result[nbApi]["en"];
+   })
+    myResult.then(function(result){
+       document.getElementById(idAuteur).innerHTML=result[nbApi]["author"];
+   })
+
+}
+//Lundi
+myQuote('citation1','auteur1',123)
+//Mardi
+myQuote('citation2','auteur2',13)
+//Mercredi
+myQuote('citation3','auteur3',33)
+//Jeudi
+myQuote('citation4','auteur4',242)
+//Vendredi
+myQuote('citation5','auteur5',92)
+
+
+
+
+
 // API proverbes 
 
 
@@ -127,4 +118,5 @@ setTimeout(() => {
 }, 1500);
 
 // AnimeJS
+
 
